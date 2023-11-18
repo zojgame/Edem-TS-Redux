@@ -1,0 +1,101 @@
+.tripContainer {
+  background: white;
+  display: flex;
+  width: 1128px;
+  height: 168px;
+  box-sizing: border-box;
+  padding: 20px 24px;
+  gap: 20px;
+  border-radius: 10px;
+
+  .image {
+    display: flex;
+    align-items: center;
+    min-width: 171px;
+    min-height: 128px;
+    max-width: 171px;
+
+    img {
+      border-radius: 8px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .tripInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+
+    .cargoType {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .title {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        font-weight: 500;
+      }
+
+      .cargoTypeItems {
+        display: flex;
+        gap: 5px;
+
+        .anotherType {
+          color: #136aca;
+        }
+      }
+    }
+
+    .titleAndPriceContainer {
+      display: flex;
+      justify-content: space-between;
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .priceContainer {
+        display: flex;
+        width: 224px;
+        border-radius: 8px;
+        justify-content: space-between;
+        padding: 4px 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        border-radius: 8px;
+        background: #f3f4f5;
+        align-items: center;
+        color: #0b1524a8;
+
+        .price {
+          color: black;
+          font-weight: 600;
+          line-height: 24px;
+          font-size: 16px;
+        }
+      }
+    }
+    .locationAndDateContainer {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+
+      .location {
+        display: flex;
+        gap: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+
+      .date {
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+}

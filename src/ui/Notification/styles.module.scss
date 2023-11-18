@@ -1,0 +1,21 @@
+.notification {
+  position: relative;
+
+  cursor: pointer;
+
+  .count {
+    position: absolute;
+    left: 10px;
+    bottom: 28px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: white;
+    padding: 1px 5px;
+    line-height: 16px;
+    border-radius: 10px;
+    max-height: 16px;
+    box-sizing: border-box;
+    background-color: #ff4e3d;
+  }
+}

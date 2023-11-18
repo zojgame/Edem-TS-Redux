@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  gap: 64px;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 8px;
+
+    div {
+      color: #0b1524;
+      cursor: pointer;
+    }
+  }
+}

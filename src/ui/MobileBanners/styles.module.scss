@@ -1,0 +1,9 @@
+.banners {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  img {
+    cursor: pointer;
+  }
+}

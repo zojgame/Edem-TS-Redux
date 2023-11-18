@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  width: 101px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #0b15240d;
+  border-radius: 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+.username {
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.username p {
+  margin: 0;
+}
