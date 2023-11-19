@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 const VkIconUI = () => {
@@ -19,4 +18,5 @@ const VkIconUI = () => {
     </div>
   );
 };
+
 export { VkIconUI };

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 const TelegramIconUI = () => {
@@ -19,4 +18,5 @@ const TelegramIconUI = () => {
     </div>
   );
 };
+
 export { TelegramIconUI };

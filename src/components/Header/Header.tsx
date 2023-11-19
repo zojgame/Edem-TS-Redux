@@ -12,4 +12,5 @@ const HeaderComponent = () => {
     </header>
   );
 };
+
 export { HeaderComponent };

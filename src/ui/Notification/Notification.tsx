@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 interface INotifictionUI {
@@ -29,4 +28,5 @@ const NotifictionUI = ({ notificationCount }: INotifictionUI) => {
     </div>
   );
 };
+
 export { NotifictionUI };

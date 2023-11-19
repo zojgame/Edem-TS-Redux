@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 const OkIconUI = () => {
@@ -19,4 +18,5 @@ const OkIconUI = () => {
     </div>
   );
 };
+
 export { OkIconUI };

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 const MobileBannersUI = () => {
@@ -9,4 +8,5 @@ const MobileBannersUI = () => {
     </div>
   );
 };
+
 export { MobileBannersUI };

@@ -25,4 +25,5 @@ const NavigationComponent = () => {
     </nav>
   );
 };
+
 export { NavigationComponent };

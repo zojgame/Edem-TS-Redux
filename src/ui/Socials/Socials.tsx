@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 import { OkIconUI, TelegramIconUI, VkIconUI } from "..";
 
@@ -11,4 +10,5 @@ const SocialsUI = () => {
     </div>
   );
 };
+
 export { SocialsUI };

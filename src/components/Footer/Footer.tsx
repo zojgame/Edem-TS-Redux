@@ -14,4 +14,5 @@ const FooterComponent = () => {
     </footer>
   );
 };
+
 export { FooterComponent };

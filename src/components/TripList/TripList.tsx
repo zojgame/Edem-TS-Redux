@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { fetchGetTrips } from "../../mockApi/mockApi";
-import { useAppDispatch, useAppSelector } from "../../hooks";
+import { useAppDispatch, useAppSelector, useToast } from "../../hooks";
 import { getTrips, setTrips, addTrips } from "../../store";
-import styles from "./styles.module.scss";
 import { ToastListComponent, TripComponent } from "..";
-import { useToast } from "../../hooks";
+import styles from "./styles.module.scss";
 
 function findWordEnding(count: number) {
   const remainder = count % 10;

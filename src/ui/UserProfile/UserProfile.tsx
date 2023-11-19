@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss";
 
 const UserProfileUI = () => {
@@ -12,4 +11,5 @@ const UserProfileUI = () => {
     </div>
   );
 };
+
 export { UserProfileUI };
